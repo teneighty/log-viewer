@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 800px;
+}
+
+.Logs {
+  height: 500px;
+  overflow: auto;
+}
+
+.Addresses {
+  height: 500px;
+  overflow: auto;
+}
+
+.Addresses h3 {
+  text-align: center;
+}
+
+.Transactions h3 {
+  text-align: center;
+}
+
+.Loader textarea {
+  height: 200px;
+}
+
+.DropZone {
+    border: 2px dashed #bbb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    font: 20pt bold 'Vollkorn';
+    color: #bbb;
+}
+
+.FileSelector {
+  text-align: center;
+}
+
+.Or {
+  text-align: center;
+  margin: 10px 0;
+  font: 20pt;
+  font-weight: bold;
+}
